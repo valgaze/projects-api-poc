@@ -1,0 +1,33 @@
+{
+  "name": "boma",
+  "version": "1.0.0",
+  "description": "You need a .env file to run this",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.147",
+    "@types/pg": "^8.10.9",
+    "@types/uuid": "^10.0.0"
+  },
+  "scripts": {
+    "db": "sst shell drizzle-kit",
+    "destroy": "sst remove",
+    "dev": "sst dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy:dev": "sst deploy --stage dev",
+    "deploy:staging": "sst deploy --stage staging",
+    "deploy:prod": "sst deploy --stage prod"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.760.0",
+    "dotenv": "^16.4.7",
+    "inquirer": "^12.4.3",
+    "pg": "^8.11.3",
+    "sst": "^3.9.37",
+    "yargs": "^17.7.2",
+    "zod": "^3.22.4",
+    "drizzle-kit": "^0.26.2",
+    "drizzle-orm": "^0.35.1"
+  },
+  "keywords": [],
+  "author": "valgaze@realm8.dev"
+}
