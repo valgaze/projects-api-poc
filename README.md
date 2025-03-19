@@ -93,8 +93,6 @@ curl -X GET https://rier9ztyfe.execute-api.us-east-1.amazonaws.com/projects
 
 For offline development, you can connect to a local PostgreSQL database, see here for details: https://sst.dev/docs/component/aws/postgres/#running-locally
 
-```
-
 ## 📁 Project Structure
 
 ```
@@ -107,7 +105,7 @@ For offline development, you can connect to a local PostgreSQL database, see her
 ├── migrations/ # Drizzle migrations
 └── sst.config.ts # SST configuration
 
-````
+```
 
 ## ⚙️ Additional Commands
 
@@ -120,19 +118,19 @@ npm run db generate
 
 # Create a new migration
 npm run db push
-````
+```
 
 ### 📘 Resources + Docs
 
-https://sst.dev/docs/start/aws/drizzle/
-https://github.com/sst/sst/tree/dev/examples/aws-apig-auth
-https://github.com/sst/sst/tree/dev/examples/aws-aurora-postgres
-https://sst.dev/docs/iam-credentials/
-https://sst.dev/docs/share-across-stages/
+- https://sst.dev/docs/start/aws/drizzle/
+- https://github.com/sst/sst/tree/dev/examples/aws-apig-auth
+- https://github.com/sst/sst/tree/dev/examples/aws-aurora-postgres
+- https://sst.dev/docs/iam-credentials/
+- https://sst.dev/docs/share-across-stages/
 
 ### Costs 🏦
 
-https://calculator.aws/#/
-https://www.reddit.com/r/aws/comments/1bcp7dq/cost_for_an_aurora_cluster/
+- https://calculator.aws/#/
+- https://www.reddit.com/r/aws/comments/1bcp7dq/cost_for_an_aurora_cluster/
 
 For more detailed information on API usage, see the [API Documentation](./docs/api.md).
